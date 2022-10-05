@@ -19,9 +19,9 @@ import java.util.List;
  *               -- 2022/10/5
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wxcaacc2cd3369d18d";
+    public static final String VxAppSecret = "f054d7522f3420fca557fe8f6679297e";
+    public static final String WeatherKey = "1c7c7d3d22f7760caf2dc2d0cf355f71";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -69,15 +69,15 @@ public class AllConfig {
         //注意：日期里面的数字，填正常的数字就行了.比如1就是1，不要填01
         //注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
+                "o31GO5xsh8ekSCPn7lLvonD1Iezo", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "EDB02Yz53kA9PU6JpO_Vnz9v_8-Tppllx8vzNoiRSmQ", //要给这个人发送的模板ID
+                "肉肉大小姐", //咋称呼这个人
+                "河南省郑州市新郑市", //这个人的详细地址
+                "郑州", //这个人在的城市
+                new BirthDay(2002,10,27,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(1999,8,11,false),
+                new BirthDay(2020,7,8,true),
+                new BirthDay(2020,7,8,false)
         ));
 
         userList.add(getUser(
@@ -86,7 +86,7 @@ public class AllConfig {
                 "这个人的称呼",//咋称呼这个人
                 "江苏省南京市玄武区",//这个人的详细地址
                 "南京",//这个人在的城市
-                new BirthDay(1999,8,11,false,false),
+                new BirthDay(1999,8,11,false),
                 new BirthDay(1999,2,15,true,false),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false)
